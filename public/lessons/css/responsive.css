@@ -1,0 +1,110 @@
+@media (max-width: 992px){
+	.numbers{
+		padding: 3rem 0;
+	}
+	.blog-view-offer-item{
+		width: 300px;
+	}
+	.blog-view-body{
+		border-bottom: 1px solid #ccc;
+	}
+}
+
+@media (max-width: 762px){
+	.sliderText{
+		font-size: 4vmin
+	}
+
+	.contactBox p{
+		font-size: 13px;
+	}
+
+	.courses__banner{
+		padding: 8rem 0;
+	}
+
+	.courses__banner h1{
+		font-size: 30px;
+	}
+
+	.courses-view-accardion-title h4{
+		font-size: 22px;
+	}
+
+	.blog-view-offer-item{
+		width: 100%;
+	}
+	.blog-view-body p{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 576px){
+	.call-order{
+		font-size: 3.2vmin;
+	}
+	.service__title span{
+		font-size: 7vmin;
+	}
+	.box .chart{
+		font-size: 5vmin;
+	}
+	.box h4{
+		font-size: 6vmin;
+	}
+	.contactBox p{
+		font-size: 2.5vmin;
+	}
+	.contactBox .icon{
+		width: 60px;
+    	height: 60px;
+    	font-size: 6vmin;
+	}
+
+	.courses__banner h1{
+		font-size: 6vmin;
+	}
+
+	.courses-view-accardion-title h4{
+		font-size: 3.83vmin;
+	}
+	.courses-viev-accordion h5{
+		font-weight: bold !important;
+		font-size: 4vmin;
+	}
+	.courses-viev-accordion ol{
+		padding: 0;
+	}
+	.courses-viev-accordion ol li{
+		font-size: 12px;
+		padding: 0;
+	}
+	.courses-about h2{
+		font-size: 5vmin
+	}
+	.breadcrumb .breadcrumb-item{
+		font-size: 2.7vmin;
+	}
+}
+
+@media (max-width: 450px){
+	.about__text{
+		font-size: 4vmin;
+	}
+	.about__text__wave h2{
+		font-size: 6vmin;
+	}
+
+	.service__box h3{
+		font-size: 5vmin;
+	}
+
+	.service__box p{
+		font-size: 3.4vmin;
+	}
+
+	.box .chart{
+		width: 130px;
+		height: 130px;
+	}
+}

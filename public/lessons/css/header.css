@@ -1,0 +1,150 @@
+*{
+	outline: none !important;
+}
+
+@font-face{
+	src: url('../fonts/ArmSchool.ttf');
+	font-family: ArmSchool
+}
+
+@font-face{
+	src: url('../fonts/ArmNormal.ttf');
+	font-family: ArmNormal
+}
+
+@font-face{
+	src: url('../fonts/rusianFont.ttf');
+	font-family: rusianFont
+}
+
+body{
+	font-family: ArmSchool;
+	color: #444;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+p{
+	margin-bottom: 0;
+}
+button{
+	border: none;
+	cursor: pointer;
+}
+
+
+header{
+	position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    font-family: ArmSchool;
+    color: white;
+    z-index: 5;
+    height: 60px;
+    transition: 0.3s;
+}
+
+header.active{
+	height: auto;
+	transition: 0.3s;
+}
+
+header .logo{
+	width: 200px;
+}
+
+header .logo img{
+	width: 100%;
+}
+
+
+header ul{
+	margin: 0;
+	padding: 0;
+}
+
+header .menu li{
+	list-style: none;
+	margin: 0 0.7rem;
+	cursor: pointer;
+	position: relative;
+	transition: 0.3s;
+}
+
+header .menu li a{
+	color: white;
+}
+
+header .menu li a:before{
+	content: '';
+	position: absolute;
+	width: 0%;
+	left: 0;
+	bottom: -5px;
+	height: 2px;
+	background: white;
+	transition: 0.3s;
+}
+
+header .menu li a:after{
+	content: '';
+	position: absolute;
+	width: 0%;
+	right: 0;
+	bottom: -5px;
+	height: 2px;
+	background: white;
+	transition: 0.3s;
+}
+
+header .menu li a:hover{
+	color: #009ee3;
+}
+
+header .menu li a:hover:before,
+header .menu li a:hover:after{
+	width: 50%;
+	background: #009ee3;
+}
+
+.sub-menu li{
+	list-style: none;
+	padding: 0.7rem 0;
+	cursor: pointer;
+	position: relative;
+	transition: 0.3s;
+	text-align: center;
+	border-bottom:1px solid #cccccc3b;
+
+}
+
+.sub-menu li:last-child{
+	border: none;
+}
+
+.flag ul{
+	padding: 0.2rem;
+	background: white;
+}
+
+.flag img{
+	width: 24px;
+	height: auto;
+}
+
+.flag li{
+	list-style: none;
+	cursor: pointer;
+}
+
+.flag ul{
+	display: none;
+	position: absolute;
+}
+
+.flag:hover ul{
+	display: block;
+}

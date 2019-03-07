@@ -1,0 +1,2 @@
+[21-Feb-2019 11:40:08 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /var/www/u0574982/wave-it.ru/artisan on line 33
+[21-Feb-2019 11:40:15 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /var/www/u0574982/wave-it.ru/artisan on line 33

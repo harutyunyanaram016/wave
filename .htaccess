@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine On
+   RewriteRule ^(.*)$ public/$1 [L]
+	redirect 301 /courses   https://wave-it.ru/web-dasyntacner
+	redirect 301 /html   https://wave-it.ru/html-dasyntacner
+	redirect 301 /team   https://wave-it.ru/web-kayqeri-spasarkum
+	redirect 301 /php   https://wave-it.ru/php-dasyntacner
+	redirect 301 /about   https://wave-it.ru/web-kayqeri-patrastum
+	redirect 301 /portfolio   https://wave-it.ru/web-kayqer-yev-logoner
+	redirect 301 /banners    https://wave-it.ru/flesh-banneri-patrastum
+	redirect 301 /logo   https://wave-it.ru/logoneri-patrastum
+	redirect 301 /card   https://wave-it.ru/ayceqarteri-patrastum
+	redirect 301 /design   https://wave-it.ru/bnakarani-3d-design
+
+</IfModule>
+

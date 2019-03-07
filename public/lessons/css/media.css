@@ -1,0 +1,26 @@
+@media screen and (max-width:428px){
+	.beeoncode {
+		font-size:39px;
+	}
+	.sub-name {
+		font-size: 22px;
+	}
+	.html-lessons{
+		width:50%!important;
+	}
+}
+@media screen and (max-width:768px){
+	.html-lessons{
+		width:80%!important;
+		margin-top: 10px!important;
+	}
+	
+}
+@media screen and (max-width:1200px){
+	.none {
+		display: block;
+	}
+	.block {
+		display: none;
+	}
+}
